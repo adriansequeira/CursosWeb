@@ -1,0 +1,20 @@
+#caja4{
+	width: 900px;
+	height: 400px;
+	background-color: orange;
+}
+/*estilo para tablets*/
+@media only screen and (min-width: 768px) and (max-width:_940px){
+#caja4{
+width: 600px;
+background-color: red; 
+}
+}
+/*estilos para smarthphones*/
+@media only screen and (min-width: 400px) and (max-width:_767px){
+#caja4{
+width: 400px;
+background-color: green;
+border-spacing: none; 
+}
+}

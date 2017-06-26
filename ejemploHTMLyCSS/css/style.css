@@ -1,0 +1,102 @@
+body{
+	background: #DEBABA;
+	margin: 0;
+}
+
+h1{
+	color: #FFF;
+	
+}
+
+.titulo{
+	background-color: black;
+}
+
+ul{
+	list-style: none;
+
+}
+
+a{
+	text-decoration: none;
+	color: rgba(1,0,0.0.5);
+}
+
+a:hover{
+	color: #ccc;
+}
+
+.menu-navegacion{
+	text-align: center;
+	
+}
+
+li{
+	display: inline; /*Hace que las ligas esten todas en el mismo renglon*/
+}
+
+.consalto{
+	display: block;
+}
+
+.menu-navegacion a{
+	background: black;
+	color: #aaa;
+	width: 100px;
+	height: 20px;
+	font-size: 12px;
+	padding: 10px;
+	margin: 0px 10px 0px 0px;
+	text-align: center;
+	display: inline;
+}
+
+li.hover{
+	color:#807B7B;
+}
+li.activo a{
+	background: #ccc;
+	display: inline;
+}
+
+h1{
+	text-align: center;
+	padding: 30px;
+	margin: 0px;
+
+}
+
+.informacion-personal{
+	border:5px solid #aaa;
+	width: 60%;
+	display: block;
+	/*border-top: none;
+	border-left: none;
+	border-right: none;
+*/
+border: 0,10,0,10; 
+
+}
+
+.footer{
+	background: gray;
+	padding: 50px;
+}
+
+img{
+	height: 10px,
+	width:10px ;
+}
+
+.justificar{
+	text-align: justify;
+}
+
+table, th, td{
+	border:1px solid black;
+	border-collapse: collapse;
+}
+
+th, td{
+	padding:20px;
+}

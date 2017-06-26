@@ -1,0 +1,37 @@
+p{
+	width: 80px;
+    text-align: justify;
+}
+
+@media screen and (min-width: 9920px) and (max-width: 2000px){
+body{
+	background-color: #BDD1EA;
+}
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 992px){
+	body{
+		background-color: #FBE6B3;
+	}
+}
+
+@media screen and (min-width: 600px) and (max-width: 600px){
+	body{
+		background-color: #B5F4E6;
+	}
+}
+
+@media screen and (min-width: 400px) and (max-width: 600px){
+	body{
+		background-color: #FBE6B3;
+		color: #fff;
+	}
+}
+
+@media screen and (min-width: 0px) and (max-width: 400px){
+	body{
+		background-color: #8A7268;
+		color:#fff;
+	}
+}

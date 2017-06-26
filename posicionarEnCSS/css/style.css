@@ -1,0 +1,25 @@
+.divHijo{
+	background: #6A7CFF;
+	padding: 30px;
+	border: 10px solid #000;
+	/*margin: 500px 500px;*/
+	/*position: static;*/
+	position: absolute;
+
+
+	top:20px;
+	right:10px ;
+}
+
+.miDivPadre{
+	background: #ff8000;
+	padding: 30px;
+	border: 10px solid #000;
+	/*margin: 500px 500px;*/
+	/*position: static;*/
+	position: absolute;
+
+
+	top:0px;
+	right:0px;
+}

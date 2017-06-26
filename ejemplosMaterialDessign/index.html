@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+  <html>
+    <head lang="es">
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="css/style.css">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0 charset="UTF-8""/>
+    </head>
+
+    <body>
+   <nav>
+    <div class="nav-wrapper #82b1ff blue accent-1">
+      <a href="#!" class="brand-logo ">&nbsp;Logo</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a class="waves-effect waves-light btn  #82b1ff blue accent-1">Play <i class = "material-icons right">play_circle_outline</i></a></li>
+        <li><a class="waves-effect waves-light btn #82b1ff blue accent-1">Pause <i class="material-icons right">pause_circle_outline</i></a></li>
+        <li><a class="waves-effect waves-light btn #82b1ff blue accent-1">Play list <i class = "material-icons left">queue_music</i></a></li>
+      </ul>
+    </div>
+  </nav>
+      <!--Import jQuery before materialize.js-->
+<!-- inicio de carousel -->
+
+<div class="carousel carousel-slider">
+    <a class="carousel-item" href="#one!"><img src="https://musiccanada.files.wordpress.com/2015/10/new-releases-30-oct-2015.jpg"></a>
+    <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/800/400/food/2"></a>
+    <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/800/400/food/3"></a>
+    <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/800/400/food/4"></a>
+  </div>
+ 
+<!-- FIn del carousel-->
+ <!-- Inicio de forma-->
+<div class = "row">
+<h3>Inicia sesión</h3>
+<div class = "col m6">
+  <div class="row">
+    <form class="col s12">
+            <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">Email</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="password" type="password" class="validate">
+          <label for="password">Password</label>
+        </div>
+      </div>
+    </form>
+  </div>
+  </div>
+  <div class = "col m6">
+  <form action="#">
+  <br><br>
+    <p>
+      <input type="checkbox" id="test5" />
+      <label for="test5">No soy un robot</label>
+    </p>
+    <p>
+      <input type="checkbox" id="test6" checked="checked" />
+      <label for="test6">Acepto los terminos y condiciones</label>
+    </p>
+  </form>
+  </div>
+  </div>
+ 
+<!--Fin de forma -->
+
+      <!--inicio del footer-->
+      <footer class="page-footer #82b1ff blue accent-1">
+         
+          
+          <div class="footer-copyright">
+            <div class="container">
+            © 2017 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">Follow us!!!</a>
+            </div>
+          </div>
+        </footer>
+<!--Fin del footer-->
+
+    </body>
+    <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+      <script type="text/javascript" src="js/materialize.js"></script>
+      <script>
+      	$('.carousel.carousel-slider').carousel({fullWidth: true});
+      </script>
+  </html>

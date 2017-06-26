@@ -1,0 +1,65 @@
+div{
+width: 100px;
+height: 100px;
+background: #aaa;
+float: left; /*hace que todo se ponga en la misma linea*/
+font-size: 30px;
+}
+
+.caja{
+	position: relative;
+	top:0px ;
+	left:100px;
+}
+
+.cajaPadre{
+	background: #000;
+	position: absolute;
+	top: 400px;
+	left:600px;
+}
+.caja1{
+	position: relative;
+	top:000px ;
+	left:100px;
+}
+.caja2{
+	position: relative;
+	top:100px ;
+	left:100px;
+}
+.caja3{
+	position: relative;
+	top:100px ;
+	left:100px;
+}
+.caja4{
+	position: relative;
+	top: 000px ;
+	right:600px;
+
+}
+.caja5{
+	position: relative;
+	bottom:100px ;
+	left:100px;
+}
+.caja6{
+	position: relative;
+	bottom:200px ;
+	left:125px;
+}
+.caja7{
+	position: relative;
+	bottom:0px ;
+	left:150px;
+}
+.caja8{
+	position: relative;
+	bottom:100px ;
+	right:75px;
+}
+.caja9{
+	position: relative;
+	top:100px ;
+	left:100px;
